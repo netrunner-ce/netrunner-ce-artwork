@@ -1,0 +1,11 @@
+[Plymouth Theme]
+Name=Netrunner Text
+Description=Text mode theme based on netrunner-logo theme
+ModuleName=ubuntu-text
+
+[ubuntu-text]
+title=Netrunner 13.06
+black=0x000000
+white=0xffffff
+brown=0x00457e
+blue=0x0073b3

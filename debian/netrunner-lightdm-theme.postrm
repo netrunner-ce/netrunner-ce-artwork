@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ remove = "$1" ]; then 
+   dpkg-divert --package netrunner-lightdm-theme --remove --rename --divert /etc/lightdm/lightdm.conf.orig /etc/lightdm/lightdm.conf
+   dpkg-divert --package netrunner-lightdm-theme --remove --rename --divert /etc/lightdm/lightdm-gtk-greeter-ubuntu.conf.orig /etc/lightdm/lightdm-gtk-greeter-ubuntu.conf
+fi  

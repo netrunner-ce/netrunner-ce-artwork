@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ install = "$1" -o upgrade = "$1" ]; then 
+  update-grub2
+fi

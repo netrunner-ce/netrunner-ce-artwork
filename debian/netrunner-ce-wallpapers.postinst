@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Create link to global backgrounds in /etc/skel for cinnamon 1.8
+mkdir -p /etc/skel/.cinnamon
+ln -sf /usr/share/backgrounds /etc/skel/.cinnamon/
