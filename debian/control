@@ -8,7 +8,7 @@ Standards-Version: 3.9.4
 Package: netrunner-artwork
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, netrunner-ca-default-wallpaper,
+Depends: ${misc:Depends}, netrunner-ce-default-wallpaper,
  netrunner-grub-artwork, netrunner-lightdm-theme, netrunner-plymouth-theme-logo, netrunner-plymouth-theme-text, netrunner-icon-theme, netrunner-gtk-theme 
 Suggests: netrunner-ubiquity-slideshow, netrunner-ca-wallpapers, netrunner-icon-theme-extras, netrunner-gtk-theme-extras 
 Description: Artwork metapackage for the Netrunner (Desktop)
@@ -37,7 +37,7 @@ Description: Ubiquity - netrunner slideshow
  
 Package: netrunner-lightdm-theme
 Architecture: all
-Depends: ${misc:Depends}, lightdm, netrunner-default-wallpaper
+Depends: ${misc:Depends}, lightdm, netrunner-ce-default-wallpaper
 Description: Lightdm Login Manager - netrunner theme
  This package contains the default netrunner theme for lightdm login manager.
  
