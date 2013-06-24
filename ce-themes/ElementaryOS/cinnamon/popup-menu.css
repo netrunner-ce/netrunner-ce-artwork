@@ -2,7 +2,7 @@
 
 .popup-menu-boxpointer {
     -arrow-border-radius: 5px;
-    -arrow-background-color: rgba(0,0,0,0.8);
+    -arrow-background-color: rgba(0,0,0,1.0);
     -arrow-border-width: 1px;
     -arrow-border-color: rgba(255,255,255,0.4);
     -arrow-base: 15px;
@@ -35,8 +35,8 @@
 }*/
 
 .popup-sub-menu {
-    background-color: rgba(0,0,0,0.15);
-    color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(0,0,0,1.0);
     border: 1px solid rgba(0,0,0,0.25);
     box-shadow:  inset 0px 1px 0px 0px rgba(0,0,0,0.12);
     border-radius: 0px 0px 4px 4px;
@@ -64,7 +64,7 @@
 }
 
 .popup-combo-menu {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,1.0);
     padding: 1em 0em;
     color: #000;
     border: 1px solid #5f5f5f;
@@ -124,7 +124,7 @@
 }
 
 .popup-separator-menu-item {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.8);
     border: 1px solid rgba(0,0,0,1);
     border-bottom: 0px;
     border-left: 0px;
@@ -141,7 +141,7 @@
     min-width: 15em;
     -slider-height: 5px;
     -slider-background-color: #000;
-    -slider-border-color: rgba(0,0,0,0.4);
+    -slider-border-color: rgba(0,0,0,0.8);
     -slider-active-background-color: #3D95E7;
     -slider-active-border-color: rgba(0,0,0,0);
     -slider-border-width: 1px;
